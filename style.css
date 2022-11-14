@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.rainbow {
+    height: 80px;
+    background: rgb(255,172,223);
+    background: linear-gradient(90deg, rgba(255,172,223,1) 0%,
+    rgba(255,208,170,1) 20%,
+    rgba(255,244,169,1) 40%,
+    rgba(190,224,163,1) 60%,
+    rgba(177,245,235,1) 80%,
+    rgba(197,165,223,1) 100%);
+}
+
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.works {
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.name {
+    margin-top: 0px;
+    font-size: 80px;
+}
+
+.info {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.photo {
+    height: 300px;
+    align-self: flex-end;
+}
+
+.item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 50%;
+    align-self: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.image {
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+
+.contrast {
+    border: 1px lightgray solid;
+}
