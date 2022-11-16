@@ -91,10 +91,11 @@ p {
 }
 
 .image {
-    max-height: 500px;
+    max-height: 520px;
     margin-bottom: 20px;
 }
 
 .contrast {
     border: 1px lightgray solid;
+    margin-top: 10px;
 }
